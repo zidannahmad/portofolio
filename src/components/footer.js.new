@@ -1,0 +1,59 @@
+export default function Footer() {
+  return (
+    <footer className="border-t border-gray-100 bg-white py-12">
+      <div className="max-w-6xl mx-auto px-6">
+        <div className="grid md:grid-cols-3 gap-8">
+          <div>
+            <a href="#" className="text-xl font-light tracking-wider text-gray-900">
+              ZIDAN<span className="font-semibold">.DEV</span>
+            </a>
+            <p className="mt-4 text-gray-600 leading-relaxed">
+              Membangun solusi digital yang elegan dan efektif untuk kebutuhan modern
+            </p>
+          </div>
+          
+          <div>
+            <h3 className="text-sm font-semibold text-gray-900 uppercase tracking-wider">Navigation</h3>
+            <ul className="mt-4 space-y-2">
+              <li>
+                <a href="#projects" className="text-gray-600 hover:text-gray-900 transition-colors">
+                  Projects
+                </a>
+              </li>
+              <li>
+                <a href="#about" className="text-gray-600 hover:text-gray-900 transition-colors">
+                  About
+                </a>
+              </li>
+              <li>
+                <a href="#contact" className="text-gray-600 hover:text-gray-900 transition-colors">
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+          
+          <div>
+            <h3 className="text-sm font-semibold text-gray-900 uppercase tracking-wider">Contact</h3>
+            <ul className="mt-4 space-y-2">
+              <li>
+                <a href="mailto:emailkamu@gmail.com" className="text-gray-600 hover:text-gray-900 transition-colors">
+                  emailkamu@gmail.com
+                </a>
+              </li>
+              <li className="text-gray-600">
+                Lokasi, Indonesia
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+        <div className="mt-12 pt-8 border-t border-gray-100">
+          <p className="text-gray-600 text-center">
+            © {new Date().getFullYear()} Zidan.dev — All rights reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+  );
+}
