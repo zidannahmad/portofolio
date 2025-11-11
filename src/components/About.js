@@ -16,10 +16,10 @@ export default function About() {
 
   const education = [
     {
-      degree: "S1 Pendidikan Teknologi Informasi",
-      school: "Universitas Negeri Malang",
-      year: "2020 - 2024",
-      description: "Fokus pada pengembangan aplikasi web dan teknologi pembelajaran"
+      degree: "Sekolah Menengah Kejuruan",
+      school: "SMK Negeri 1 Kota Proboliggo",
+      year: "2024 - 2027",
+      description: "Kompetensi Keahlian Teknik Komputer dan Jaringan"
     }
   ];
 
@@ -35,7 +35,7 @@ export default function About() {
             <div className="h-1 w-20 bg-gradient-to-r from-gray-900 to-gray-700 mt-4 mx-auto"></div>
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Saya adalah seorang Web Developer dan Guru yang bersemangat dalam menciptakan solusi digital 
+            Saya adalah Achmad Zidan Izzul Fahmi, seorang Web Developer dan Guru yang bersemangat dalam menciptakan solusi digital 
             dan berbagi pengetahuan teknologi.
           </p>
         </div>
@@ -62,20 +62,6 @@ export default function About() {
                     </div>
                   </div>
                 ))}
-              </div>
-            </div>
-
-            <div className="bg-gray-50 rounded-2xl p-8 border border-gray-100">
-              <h3 className="text-2xl font-semibold text-gray-900 mb-6">Languages</h3>
-              <div className="space-y-4">
-                <div className="flex justify-between items-center">
-                  <span className="text-gray-700">Bahasa Indonesia</span>
-                  <span className="text-gray-600">Native</span>
-                </div>
-                <div className="flex justify-between items-center">
-                  <span className="text-gray-700">English</span>
-                  <span className="text-gray-600">Professional Working</span>
-                </div>
               </div>
             </div>
           </div>
