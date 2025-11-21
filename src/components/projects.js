@@ -1,25 +1,11 @@
 export default function Projects() {
   const data = [
     { 
-      name: "GUMEL APP", 
-      desc: "Aplikasi manajemen nilai guru yang efisien dan mudah digunakan untuk meningkatkan produktivitas", 
-      link: "#",
-      tech: ["React", "Node.js", "MongoDB"],
-      color: "from-blue-500 to-cyan-500"
-    },
-    { 
-      name: "AI Generate Text", 
-      desc: "Platform generasi teks berbasis AI menggunakan arsitektur MVC modern dengan PHP", 
-      link: "#",
-      tech: ["PHP", "MVC", "Machine Learning"],
-      color: "from-purple-500 to-pink-500"
-    },
-    { 
-      name: "Kurikulum App", 
-      desc: "Sistem manajemen kurikulum sekolah yang komprehensif dan user-friendly", 
-      link: "#",
-      tech: ["Laravel", "MySQL", "Bootstrap"],
-      color: "from-green-500 to-emerald-500"
+      name: "Personal Portfolio Website", 
+      desc: "Website portofolio pribadi yang menampilkan profil, keahlian, dan pengalaman. Dibangun dengan React dan Tailwind CSS dengan desain modern dan responsif di semua perangkat.", 
+      link: "https://github.com/zidannahmad/portofolio",
+      tech: ["React.js", "Tailwind CSS", "JavaScript"],
+      color: "from-blue-500 to-purple-500"
     },
   ];
 
@@ -35,15 +21,15 @@ export default function Projects() {
           <span className="hidden sm:block absolute -left-4 -top-2 text-4xl sm:text-5xl md:text-6xl text-gray-100 font-bold opacity-50">#</span>
           
           <h2 className="text-3xl sm:text-4xl font-light text-gray-900 mb-4 animate-fadeIn">
-            Selected Projects
+            My First Project
             <div className="h-1 w-16 sm:w-20 bg-gradient-to-r from-gray-900 to-gray-700 mt-4"></div>
           </h2>
           <p className="text-base sm:text-lg md:text-xl text-gray-600 animate-slideUp">
-            Beberapa proyek terbaik yang telah saya kembangkan
+            Website portofolio pertama kali saya buat
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+        <div className="grid sm:grid-cols-1 lg:grid-cols-1 gap-6 sm:gap-8 max-w-2xl mx-auto">
           {data.map((project, index) => (
             <div 
               key={index} 
