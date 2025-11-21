@@ -17,8 +17,8 @@ export default function About() {
   const education = [
     {
       degree: "Sekolah Menengah Kejuruan",
-      school: "SMK Negeri 1 Kota Proboliggo",
-      year: "2024 - 2027",
+      school: "SMK Negeri 1 Kota Probolinggo",
+      year: "2023 - 2026",
       description: "Kompetensi Keahlian Teknik Komputer dan Jaringan"
     }
   ];
@@ -35,8 +35,8 @@ export default function About() {
             <div className="h-1 w-20 bg-gradient-to-r from-gray-900 to-gray-700 mt-4 mx-auto"></div>
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Saya adalah Achmad Zidan Izzul Fahmi, seorang Web Developer dan Guru yang bersemangat dalam menciptakan solusi digital 
-            dan berbagi pengetahuan teknologi.
+            Saya adalah Achmad Zidan Izzul Fahmi, seorang Designer Website yang bersemangat dalam menciptakan desain website yang menarik dan responsif. 
+            Saat ini sedang menempuh pendidikan di SMK Negeri 1 Kota Probolinggo.
           </p>
         </div>
 
@@ -90,19 +90,19 @@ export default function About() {
                   <svg className="w-6 h-6 text-gray-400 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                   </svg>
-                  Pengembangan teknologi pendidikan yang inovatif
+                  Menciptakan desain website yang user-friendly dan responsif
                 </li>
                 <li className="flex items-start">
                   <svg className="w-6 h-6 text-gray-400 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                   </svg>
-                  Integrasi AI dalam pembelajaran
+                  Mengembangkan UI/UX yang menarik dan intuitif
                 </li>
                 <li className="flex items-start">
                   <svg className="w-6 h-6 text-gray-400 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                   </svg>
-                  Pengembangan aplikasi web yang user-friendly
+                  Terus belajar dan menguasai teknologi web terkini
                 </li>
               </ul>
             </div>
